@@ -1,10 +1,5 @@
 {
-    "name": "lenovo/php-mvc-core",
-    "autoload": {
-        "psr-4": {
-            "Lenovo\\PhpMvcCore\\": "src/"
-        }
-    },
+    "name": "thecodeholic/php-mvc-core",
     "authors": [
         {
             "name": "asmaasaleh185",
