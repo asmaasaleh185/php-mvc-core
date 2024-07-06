@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace corepackage\phpmvc;
 
-use app\core\Application;
+use corepackage\phpmvc\Application;
 
 abstract class Model{
     public const RULE_REQUIRED = 'required';

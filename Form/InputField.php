@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\Form;
+namespace corepackage\phpmvc\Form;
 
-use app\core\Model;
-use app\core\Form\BaseField;
+use corepackage\phpmvc\Model;
+use corepackage\phpmvc\Form\BaseField;
 
 class InputField extends BaseField{
     public const TYPE_TEXT = 'text';

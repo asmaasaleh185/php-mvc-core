@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core\db;
+namespace corepackage\phpmvc\db;
 
-use app\core\Model;
-use app\core\Application;
+use corepackage\phpmvc\Model;
+use corepackage\phpmvc\Application;
 
 abstract class DbModel extends Model{
     abstract public function tableName(): string;

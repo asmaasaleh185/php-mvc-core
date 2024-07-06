@@ -1,15 +1,15 @@
 <?php
-namespace app\core;
+namespace corepackage\phpmvc;
 
 use Exception;
-use app\core\View;
-use app\core\Router;
-use app\core\UserModel;
-use app\core\Request;
-use app\core\Session;
-use app\core\db\Database;
-use app\core\Response;
-use app\core\Controller;
+use corepackage\phpmvc\View;
+use corepackage\phpmvc\Router;
+use corepackage\phpmvc\UserModel;
+use corepackage\phpmvc\Request;
+use corepackage\phpmvc\Session;
+use corepackage\phpmvc\db\Database;
+use corepackage\phpmvc\Response;
+use corepackage\phpmvc\Controller;
 
 class Application{
     public static string $ROOT_DIR;

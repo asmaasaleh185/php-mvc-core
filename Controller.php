@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace corepackage\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use corepackage\phpmvc\middlewares\BaseMiddleware;
 
 class Controller{
     public string $layout = 'main';
     public string $action = '';
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \corepackage\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
     

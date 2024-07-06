@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\Form;
+namespace corepackage\phpmvc\Form;
 
-use app\core\Model;
-use app\core\Form\InputField;
+use corepackage\phpmvc\Model;
+use corepackage\phpmvc\Form\InputField;
 
 class Form{
     public static function begin($action, $method){

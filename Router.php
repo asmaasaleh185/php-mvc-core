@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace corepackage\phpmvc;
 
-use app\core\Request;
-use app\core\Response;
-use app\core\Application;
-use app\core\exception\NotFoundException;
+use corepackage\phpmvc\Request;
+use corepackage\phpmvc\Response;
+use corepackage\phpmvc\Application;
+use corepackage\phpmvc\exception\NotFoundException;
 
 class Router{
     public Request $request;
@@ -37,7 +37,7 @@ class Router{
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)){
-            /** @var \app\core\Controller $controller */
+            /** @var \corepackage\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

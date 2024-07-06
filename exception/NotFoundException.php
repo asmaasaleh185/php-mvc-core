@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exception;
+namespace corepackage\phpmvc\exception;
 
 use Exception;
 

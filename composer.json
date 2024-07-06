@@ -6,5 +6,10 @@
             "email": "asmaasaleh185@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "corepackage\\phpmvc\\": "."
+        }
+    }
 }

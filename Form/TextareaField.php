@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\Form;
+namespace corepackage\phpmvc\Form;
 
-use app\core\Form\BaseField;
+use corepackage\phpmvc\Form\BaseField;
 
 class TextareaField extends BaseField{
     public function renderInput(): string{
